@@ -1,0 +1,110 @@
+#wrap{width: 100%; }
+#header{width:100%; height: 175px;}
+#header .logo{width: 100%; height:105px;
+              text-align: center; 
+              line-height: 105px; }
+#header .logo h1{font-size: 30px; color: #000;}
+#header .main_nav{display: flex; width: 100%; height: 70px;
+                  justify-content: center;}
+#header .main_nav li{float: left; 
+                       margin-right: 25px;
+                       height:70px;
+                       line-height: 70px;}
+#header .main_nav li:last-child{margin-right: 0;}
+#header .main_nav a{font-size: 20px; 
+                     font-weight: 500;}
+
+#main_img{width:100%;
+          height: 800px;
+          background:url(../images/visual.jpg) no-repeat 50% 0;}
+#contents{width: 100%;}
+  #best{margin: 0 auto; width: 1200px;}
+  #best .b_head{ width: 100%; height: 70px;}
+#best .b_head h3{padding-top: 35px; font-size:18px; }
+#best .b_contents{width: 1200px; height: 620px;
+
+}
+#best .b_contents .l_img{float: left; width:600px; height: 620px;}
+
+#best .text_box h4{float: left; margin-top: 50px; padding: 0 20px;
+                   font-size: 40px; color:#000;}
+#best .text_box .group{float: left; margin: 45px 0 0 0;}
+#best .text_box p{font-size: 18px;}
+#best.text_box span{float: left; margin-top: 10px; font-size: 14px;}
+#best .text_box a{float: right; margin: 80px 30px 0 0; 
+                  font-size: 14px; color: aqua;}
+#best .b_contents .list{float: right; width:550px; height: 620px;}
+
+#best .list li{width: 100%; height: 110px;
+               padding-bottom: 22px;
+               margin-bottom: 22px;
+               border-bottom: 1px solid #ccc;}
+#best .list h4{float: left; margin-top: 30px; padding: 0 20px;
+    font-size: 40px; color: #000;}
+#best .list img{float: left;}
+#best .list .group{float: left; padding: 25px 0  0 20px;}
+#best .list p{font-size: 18px; margin-bottom: 10px;}
+#best .list span{
+    margin-top: 10px; font-size: 14px;}
+#best .list a{float: right; margin-top: 60px; font-size: 14px;}
+
+#best .b_footer{width: 100px;}
+
+#event{margin: 0 auto; width: 1200px;}
+#event .e_head{width: 100%; height: 70px;
+                background-color: yellow;}
+#event .e_head h3{padding-top: 35px; font-size: 18px;}
+
+#event .e_content{width: 100%; height: 515px;}
+#event .e_content ul{width: 100%; height: 515px;}
+#event .e_content li{float: left; margin-right: 45px;
+                     width: 370px; height:515px;
+                     border: 1px solid #ccc;
+                     box-sizing: border-box; }
+#event .e_content li:last-child{margin-right: 0;}
+
+#event .e_content img{width: 100%;}
+#event .e_content .txt_box{width: 100%; padding: 30px 0 0 18px; }
+#event .e_content h4{font-size: 16px;
+                     margin-bottom: 10px;}
+#event .e_content p{ font-size: 14px;}
+#event .e_content span{float: left; 
+                       margin: 35px 0 0 18px; font-size: 14px; }
+#event .e_content a{float: right;
+                    margin: 35px 18px 0 0; font-size: 14px;}
+#event .e_footer{width: 100%; height: 170px; padding-top:77px; box-sizing: border-box;}
+#event .e_footer a{display:block; 
+                   margin:0 auto; width: 105px;
+                   font-size: 16px;}
+    
+#info{width: 100%; height: 160px;
+     border-top: 1px solid #ccc;}
+#info .in-box{margin: 0 auto; width: 1200px; height: 160px;}
+
+#info .in-box .center{float: left;  width: 370px; height:150px; padding-top: 30px; }
+#info .in-box .center .ttl{font-size:10px;} 
+#info .in-box .center .num{ font-size: 25px; margin-top: 10px; font-weight: 600; }
+#info .in-box .center .conduite{font-size:14p; margin-top:6px;}
+
+#info .in-box .advice{float: left;  padding-top: 50px; width: 500px; height:150px;}
+#info .in-box .advice .ttl{font-size: 10px;}
+#info .in-box .advice p{font-size: 30px; font-weight: bolder;}
+
+#info .kakao{float: right; padding-top: 50px; }
+#info .kakao .ttl{font-size:10px;}
+#info .kakao img{width:270px;}
+
+#footer{ width: 100%; height: 165px;
+        border-top: 1px solid #ccc;
+        background-color: #f2f2f2;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+#footer .info_mn{}
+#footer .info_mn li{float: left; margin-right: 15px;}
+#footer .info_mn li:last-child{margin-right: 0;}
+#footer .info_mn li a{font-size: 15px; }
+#footer .address{ margin-top: 20px; width: 100%; height: 50px;
+                  text-align: center;}
